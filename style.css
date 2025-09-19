@@ -47,7 +47,7 @@ a {
     justify-content: center;
     background-color: #1f2937;
     gap:32px;
-    height:400px;
+    height:432px;
     
 
 
@@ -96,7 +96,7 @@ button {
 .section2 {
     margin-top: 32px;
     text-align: center;
-    height: 600px;
+    height: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -133,4 +133,36 @@ button {
     border:2px solid blue;
     border-radius: 10px;    
     
+}
+
+/* SECTION 3 Styling */
+.section3 {
+background-color: #e5e7eb;
+height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.section3_quote_card {
+    width:840px;
+    height: auto;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section3_quote_txt {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.section3_quote_author_name {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 700;
+
 }
